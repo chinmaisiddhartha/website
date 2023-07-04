@@ -108,6 +108,22 @@ code {
   line-height: 130%;
   max-width: 75ch;
 }
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content p {
+  text-align: left;
+  line-height: 1.5;
+}
+
 
 /* ------------------------------------------------------ */
 /* -- Projects -- */
